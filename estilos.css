@@ -1,0 +1,37 @@
+.padre {
+    background-color: cadetblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.nav li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    <!-- 10 de altura y 15 de largo -->
+}
+
+.nav>li {
+    float: left;
+}
+
+.nav li:hover {
+    background-color: whitesmoke;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    <!--propiedad que evita que el menu se deforme por los su submenus-->min-width: 150px;
+}
+
+.nav li:hover>ul {
+    display: block;
+}
