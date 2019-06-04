@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="estilos.css" rel="stylesheet">
 </head>
-
 <body>
 
     <div class="padre">
@@ -29,9 +26,9 @@
                 <li><a href="">ADOPTA</a></li>
                 <li><a href="">REPORTA</a></li>
                 <li>
-                    <a href=""><img src="logotipos/user.png" alt="perfil" width="35"></a>
+                    <img src="logotipos/user.png" alt="perfil" width="35">
                     <ul>
-                        <li><a href="">INICIAR SESION</a></li>
+                        <li><a href="iniciar_sesion.php">INICIAR SESION</a></li>
                         <li><a href="">REGISTRATE</a></li>
                     </ul>
                 </li>

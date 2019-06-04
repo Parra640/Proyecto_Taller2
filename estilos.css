@@ -14,7 +14,7 @@ li {
     color: black;
     text-decoration: none;
     display: block;
-    padding: 10px 15px;
+    padding: 10px 20px;
     <!-- 10 de altura y 15 de largo -->
 }
 
@@ -29,9 +29,98 @@ li {
 .nav li ul {
     display: none;
     position: absolute;
-    <!--propiedad que evita que el menu se deforme por los su submenus-->min-width: 150px;
+    min-width: 150px;
+    <!--propiedad que evita que el menu se deforme por los su submenus-->
 }
 
 .nav li:hover>ul {
     display: block;
+}
+
+<!-- estilos para el formulario de inicio de secion -->body {
+    margin: 0;
+    padding: 0;
+    background-image: url();
+    <--la imagen de fondo-->background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.login {
+    width: 320px;
+    height: 500px;
+    backgroun: transparent;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.login .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.login h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.login label {
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login input {
+    width: 99%;
+    margin-bottom: 20px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    outline: none;
+    font-size: 18px;
+    height: 50px;
+    color: white;
+}
+
+.login input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 20px;
+    color: black;
+}
+
+.login input[type="submit"]:hover {
+    color: red;
+}
+
+.login a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.login a:hover {
+    color: grey;
 }

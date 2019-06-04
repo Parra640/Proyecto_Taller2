@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="stylesheet" rel="estilos.css">
         <title>PetWolrd</title>
-    </head>
+    </title>
     <body>
 
         <?php include 'partes/Cabecera.php'?>
