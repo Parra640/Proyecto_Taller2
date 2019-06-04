@@ -1,10 +1,10 @@
-<--estilos de la cabecera -->* {
+* {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
-
+/** inicio de cabecera**/
 .padre {
-    cadetblue;
     background-color: cadetblue;
     font-family: 'Courier New', Courier, monospace;
     margin: auto;
@@ -23,7 +23,6 @@
     padding: 20px 20px;
     display: block;
     align-items: center;
-    <!-- 10 de altura y 15 de largo -->
 }
 
 .nav>li {
@@ -47,18 +46,19 @@
     display: none;
     position: absolute;
     min-width: 150px;
-    <!--propiedad que evita que el menu se deforme por los su submenus-->
 }
 
 .nav li:hover>ul {
     display: block;
 }
+/** AQUI ACABA LA CABECERA**/
 
-<!-- estilos para el formulario de inicio de secion -->body {
+/** inicio de sesion**/
+#inicio_sesion {
     margin: 0;
     padding: 0;
     background-image: url(logotipos/can.jpg);
-    <--la imagen de fondo-->background- repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: 100vw 100vh;
     font-family: sans-serif;
     background-attachment: fixed;
@@ -142,12 +142,14 @@
 .login a:hover {
     color: grey;
 }
+/** AQUI ACABA EL INICIO DE SESION**/
 
-<--estilo de crear cuenta -->body {
+/** Registro de usuario**/
+#registro_usuario {
     margin: 0;
     padding: 0;
     background-image: url(logotipos/can.jpg);
-    <--la imagen de fondo-->background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: 100vw 100vh;
     font-family: sans-serif;
     background-attachment: fixed;
@@ -218,3 +220,71 @@
 .registrar input[type="submit"]:hover {
     color: red;
 }
+/** AQUI ACABA REGISTRO DE USUARIO**/
+
+/** pie de pagina**/
+
+.container-padre {
+    width: 100%;
+    background-color: rgb(46, 44, 44);
+    color: white;
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.pie {
+    width: 100%;
+    display: flex;
+}
+
+.info {
+    max-width: 400px;
+}
+
+.info h1 {
+    font-size: 22px;
+}
+
+.info p {
+    font-size: 14px;
+    color: rgb(158, 157, 157);
+}
+
+.redes {
+    max-width: 400px;
+}
+
+.redes h1 {
+    font-size: 22px;
+}
+
+.redes p {
+    font-size: 14px;
+    color: rgb(158, 157, 157);
+}
+
+.redes div {
+    margin-top: 20px
+}
+
+.redes label {
+    margin-left: 10px;
+}
+
+.contacto {
+    max-width: 400px;
+}
+
+.contacto h1 {
+    font-size: 22px;
+}
+
+.contacto p {
+    font-size: 14px;
+    color: rgb(158, 157, 157);
+}
+/** AQUI ACABA PIE DE PAGINA**/

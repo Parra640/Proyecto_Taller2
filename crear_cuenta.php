@@ -9,7 +9,7 @@
     <title>PetWorld-Registrate</title>
 </head>
 
-<body>
+<body id="registro_usuario">
 
     <div class="registrar">
         <h1>crear cuenta en PetWolrd</h1>
@@ -27,13 +27,13 @@
             <input type="text" name="co" placeholder="ejemplo@abc.com">
 
             <label for="password">Ingrese su contraseña</label>
-            <input type="password" name="p1" placeholder="Ingrsese su contaseña ">
+            <input type="password" name="p1" placeholder="Ingrese su contaseña ">
 
             <label for="password1">Confirme su contraseña</label>
             <input type="password" name="p2" placeholder="Confirme su contraseña">
 
             <label for="number">Numero telefonico</label>
-            <input type="numero" name="nu" placeholder="numero telefonico" size="9">
+            <input type="numero" name="nu" placeholder="numero telefónico" size="9">
 
             <input id="crear" type="submit" value="Crear cuenta">
         </form>
