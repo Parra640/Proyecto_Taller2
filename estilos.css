@@ -1,20 +1,28 @@
+<--estilos de la cabecera -->* {
+    margin: 0;
+    padding: 0;
+}
+
 .padre {
+    cadetblue;
     background-color: cadetblue;
     font-family: 'Courier New', Courier, monospace;
+    margin: auto;
     font-size: 27px;
     display: flex;
     align-items: center;
 }
 
-li {
+.padre li {
     list-style: none;
 }
 
 .nav li a {
     color: black;
     text-decoration: none;
+    padding: 20px 20px;
     display: block;
-    padding: 10px 20px;
+    align-items: center;
     <!-- 10 de altura y 15 de largo -->
 }
 
@@ -24,6 +32,15 @@ li {
 
 .nav li:hover {
     background-color: whitesmoke;
+}
+
+.A {
+    margin: 0 40px 0;
+}
+
+.B {
+    align-items: center;
+    width: auto;
 }
 
 .nav li ul {
@@ -40,19 +57,16 @@ li {
 <!-- estilos para el formulario de inicio de secion -->body {
     margin: 0;
     padding: 0;
-    background-image: url();
-    <--la imagen de fondo-->background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
+    background-image: url(logotipos/can.jpg);
+    <--la imagen de fondo-->background- repeat: no-repeat;
+    background-size: 100vw 100vh;
     font-family: sans-serif;
-    height: 100vh;
     background-attachment: fixed;
 }
 
 .login {
     width: 320px;
     height: 500px;
-    backgroun: transparent;
     color: black;
     top: 50%;
     left: 50%;
@@ -75,6 +89,7 @@ li {
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
+    color: white;
     font-size: 25px;
 }
 
@@ -82,6 +97,8 @@ li {
     margin: 0;
     margin: 0;
     padding: 0;
+    color: white;
+    font-size: 20px;
     font-weight: bold;
     display: block;
 }
@@ -94,7 +111,7 @@ li {
 .login input[type="text"],
 .login input[type="password"] {
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px soliD white;
     background: transparent;
     outline: none;
     font-size: 18px;
@@ -105,6 +122,7 @@ li {
 .login input[type="submit"] {
     border: none;
     outline: none;
+    background-color: white;
     height: 50px;
     font-size: 18px;
     border-radius: 20px;
@@ -117,10 +135,86 @@ li {
 
 .login a {
     text-decoration: none;
-    font-size: 15px;
-    color: black;
+    font-size: 20px;
+    color: white;
 }
 
 .login a:hover {
     color: grey;
+}
+
+<--estilo de crear cuenta -->body {
+    margin: 0;
+    padding: 0;
+    background-image: url(logotipos/can.jpg);
+    <--la imagen de fondo-->background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    font-family: sans-serif;
+    background-attachment: fixed;
+}
+
+.registrar {
+    width: 50%;
+    height: auto;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 15px;
+}
+
+.registrar h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+.registrar label {
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+}
+
+.nombres {
+    display: inline;
+}
+
+.registrar input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.registrar input[type="text"],
+.registrar input[type="password"],
+.registrar input[type="numero"],
+.registrar input[type="date"] {
+    border: none;
+    border-bottom: 2px soliD white;
+    background: transparent;
+    outline: none;
+    font-size: 17px;
+    height: 30px;
+    color: white;
+}
+
+.registrar input[type="submit"] {
+    border: none;
+    outline: none;
+    background-color: white;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 15px;
+    color: black;
+}
+
+.registrar input[type="submit"]:hover {
+    color: red;
 }
