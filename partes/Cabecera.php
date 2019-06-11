@@ -7,15 +7,14 @@
             <li><a href="index.php">INICIO</a></li>
             <li><a href="">INFORMACION</a>
                 <ul>
-                    <li><a href="">¿QUIENES SOMOS?</a></li>
-                    <li>
-                        <a href="">COLABORADORES</a></li>
-                    <li><a href="">ACTIVIDADES</a></li>
+                    <li><a href="Informacion-somos.php">¿QUIENES SOMOS?</a></li>
+                    <li><a href="Informacion-colaboradores.php">COLABORADORES</a></li>
+                    <li><a href="Informacion-actividades.php">ACTIVIDADES</a></li>
                 </ul>
             </li>
             <li><a href="">CONTACTANOS</a></li>
             <li><a href="adoptar.php">ADOPTA</a></li>
-            <li><a href="">REPORTA</a></li>
+            <li><a href="Reporta.php">REPORTA</a></li>
             <li><img src="logotipos/user.png" alt="perfil" width="60">
                 <ul class="solo">
                     <li><a href="iniciar_sesion.php">INICIAR SESION</a></li>
