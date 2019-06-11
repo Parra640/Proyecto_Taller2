@@ -243,7 +243,8 @@
 .info,
 .redes,
 .patrocinadores {
-    background-color: yellow;
+    display: flex;
+    width: 25%;
 }
 
 .info p {
