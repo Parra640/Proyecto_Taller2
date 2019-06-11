@@ -1,13 +1,15 @@
 * {
+    /** definismos los atributos generales**/
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
+
+
 /** inicio de cabecera**/
+
 .padre {
     background-color: cadetblue;
-    font-family: 'Courier New', Courier, monospace;
-    margin: auto;
     font-size: 27px;
     display: flex;
     align-items: center;
@@ -20,43 +22,50 @@
 .nav li a {
     color: black;
     text-decoration: none;
-    padding: 20px 20px;
+    padding: 15px 15px;
     display: block;
     align-items: center;
 }
 
 .nav>li {
     float: left;
+    /** alineamos los elemnetos li**/
 }
 
 .nav li:hover {
-    background-color: whitesmoke;
+    background-color: darkorange;
+    transition: all .3s;
+}
+
+.nav li>a:hover {
+    color: white;
 }
 
 .A {
-    margin: 0 40px 0;
+    margin: 0 20px 0;
 }
 
 .B {
     align-items: center;
-    width: auto;
 }
 
 .nav li ul {
     display: none;
+    /**  desaparece los subnemus presentes en la clase nav **/
     position: absolute;
-    min-width: 150px;
 }
 
 .nav li:hover>ul {
     display: block;
 }
+
+
 /** AQUI ACABA LA CABECERA**/
 
+
 /** inicio de sesion**/
+
 #inicio_sesion {
-    margin: 0;
-    padding: 0;
     background-image: url(logotipos/can.jpg);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
@@ -86,7 +95,6 @@
 }
 
 .login h1 {
-    margin: 0;
     padding: 0 0 20px;
     text-align: center;
     color: white;
@@ -94,9 +102,6 @@
 }
 
 .login label {
-    margin: 0;
-    margin: 0;
-    padding: 0;
     color: white;
     font-size: 20px;
     font-weight: bold;
@@ -114,6 +119,7 @@
     border-bottom: 2px soliD white;
     background: transparent;
     outline: none;
+    /*  elinima los bordes */
     font-size: 18px;
     height: 50px;
     color: white;
@@ -130,24 +136,29 @@
 }
 
 .login input[type="submit"]:hover {
-    color: red;
+    color: white;
+    background-color: darksalmon;
 }
 
 .login a {
     text-decoration: none;
     font-size: 20px;
+    display: flex;
+    margin: 10px 10px;
     color: white;
 }
 
 .login a:hover {
     color: grey;
 }
+
+
 /** AQUI ACABA EL INICIO DE SESION**/
 
+
 /** Registro de usuario**/
+
 #registro_usuario {
-    margin: 0;
-    padding: 0;
     background-image: url(logotipos/can.jpg);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
@@ -156,29 +167,24 @@
 }
 
 .registrar {
-    width: 50%;
+    width: 450px;
     height: auto;
     color: black;
     top: 50%;
     left: 50%;
     position: absolute;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -45%);
     box-sizing: border-box;
-    padding: 20px 15px;
 }
 
 .registrar h1 {
-    margin: 0;
-    padding: 0 0 20px;
+    padding: 0 0 15px;
     text-align: center;
     color: black;
     font-size: 40px;
 }
 
 .registrar label {
-    margin: 0;
-    margin: 0;
-    padding: 0;
     color: black;
     font-size: 16px;
     font-weight: bold;
@@ -211,55 +217,38 @@
     border: none;
     outline: none;
     background-color: white;
-    height: 30px;
+    height: 35px;
     font-size: 18px;
     border-radius: 15px;
-    color: black;
 }
 
 .registrar input[type="submit"]:hover {
-    color: red;
+    color: white;
+    background-color: darksalmon;
 }
+
+
 /** AQUI ACABA REGISTRO DE USUARIO**/
+
 
 /** pie de pagina**/
 
 .container-padre {
     width: 100%;
-    background-color: rgb(46, 44, 44);
+    background-color: rgb(37, 37, 37);
     color: white;
 }
 
-
-.container {
-    width: 100%;
-    display: flex;
-}
-
-.pie {
-    width: 100%;
-    display: flex;
-}
-
-.info {
-    max-width: 400px;
-}
-
-.info h1 {
-    font-size: 22px;
+.container-padre .contacto,
+.info,
+.redes,
+.patrocinadores {
+    background-color: yellow;
 }
 
 .info p {
     font-size: 14px;
     color: rgb(158, 157, 157);
-}
-
-.redes {
-    max-width: 400px;
-}
-
-.redes h1 {
-    font-size: 22px;
 }
 
 .redes p {
@@ -268,23 +257,33 @@
 }
 
 .redes div {
-    margin-top: 20px
+    margin-top: 20px;
 }
 
-.redes label {
-    margin-left: 10px;
+.redes a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
 }
 
-.contacto {
-    max-width: 400px;
+.redes a img {
+    margin: 10px 10px;
 }
 
-.contacto h1 {
-    font-size: 22px;
+.redes a:hover {
+    color: darkgrey;
+}
+
+.contacto label {
+    display: flex;
 }
 
 .contacto p {
     font-size: 14px;
     color: rgb(158, 157, 157);
+    text-align: center;
 }
+
+
 /** AQUI ACABA PIE DE PAGINA**/

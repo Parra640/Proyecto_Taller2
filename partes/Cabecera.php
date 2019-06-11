@@ -17,7 +17,7 @@
             <li><a href="">ADOPTA</a></li>
             <li><a href="">REPORTA</a></li>
             <li><img src="logotipos/user.png" alt="perfil" width="60">
-                <ul>
+                <ul class="solo">
                     <li><a href="iniciar_sesion.php">INICIAR SESION</a></li>
                     <li><a href="crear_cuenta.php">CREAR CUENTA</a></li>
                 </ul>

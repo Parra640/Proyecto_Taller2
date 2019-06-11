@@ -12,12 +12,10 @@
             <h1>Redes sociales</h1>
             <div>
                 <div>
-                    <a href="https://www.facebook.com"><img width="36" height="32" src="logotipos/Facebook.png" alt="logotipo facebook"></a>
-                    <label>Siguenos en facebook</label>
+                    <a href="https://www.facebook.com"><img width="36" height="32" src="logotipos/Facebook.png" alt="logotipo facebook">Siguenos es facebook</a>
                 </div>
                 <div>
-                    <a href="https://www.instagram.com"><img width="36" height="32" src="logotipos/instagram-v051916.png" alt="instagram"></a>
-                    <label>Siguenos en instagram</label>
+                    <a href="https://www.instagram.com"><img width="36" height="32" src="logotipos/instagram-v051916.png" alt="instagram">Siguenos en instagram</a>
                 </div>
             </div>
         </div>
@@ -40,6 +38,19 @@
                 <label>PetWorld-peru@gmail.com</label>
             </div>
         </div>
+
+        <div class="patrocinadores">
+            <h1> Patrocinadores PetWorld </h1>
+            <div></div>
+            <div></div>
+            <div></div>
+
+
+        </div>
+
+
+
+
     </div>
 
     <div class="pie">
