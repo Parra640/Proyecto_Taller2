@@ -234,27 +234,32 @@
 /** pie de pagina**/
 
 .container-padre {
-    width: 100%;
     background-color: rgb(37, 37, 37);
     color: white;
 }
 
-.container-padre .contacto,
-.info,
-.redes,
-.patrocinadores {
+.container-padre h1 {
+    font-size: 27px;
+}
+
+.container {
     display: flex;
-    width: 25%;
 }
 
-.info p {
-    font-size: 14px;
-    color: rgb(158, 157, 157);
+.info {
+    width: 400px;
 }
 
-.redes p {
-    font-size: 14px;
-    color: rgb(158, 157, 157);
+.redes {
+    width: 400px;
+}
+
+.contacto {
+    width: 400px;
+}
+
+.patrocinadores {
+    width: 400px;
 }
 
 .redes div {
@@ -268,35 +273,46 @@
     align-items: center;
 }
 
-.redes a img {
-    margin: 10px 10px;
-}
-
 .redes a:hover {
     color: darkgrey;
+}
+
+.redes a img {
+    margin: 10px 10px;
 }
 
 .contacto label {
     display: flex;
 }
 
-.contacto p {
-    font-size: 14px;
-    color: rgb(158, 157, 157);
-    text-align: center;
+.pie a {
+    text-decoration: none;
+    color: white;
+}
+
+.pie a:hover {
+    color: darkgrey;
+}
+
+.pie {
+    display: flex;
+    align-items: center;
 }
 
 
 /** AQUI ACABA PIE DE PAGINA**/
 
+
 /**ADOPTAR MASCOTAS**/
-#contenedor{
+
+#contenedor {
     flex-flow: row nowrap;
     width: 100%;
-    padding: 0px 50px;    
+    padding: 0px 50px;
 }
-.parte{
-    width:50%;
+
+.parte {
+    width: 50%;
 }
 
 
