@@ -288,3 +288,16 @@
 
 
 /** AQUI ACABA PIE DE PAGINA**/
+
+/**ADOPTAR MASCOTAS**/
+#contenedor{
+    flex-flow: row nowrap;
+    width: 100%;
+    padding: 0px 50px;    
+}
+.parte{
+    width:50%;
+}
+
+
+/**CIERRE DE ADOPTAR MASCOTAS**/
