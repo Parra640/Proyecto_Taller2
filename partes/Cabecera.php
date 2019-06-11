@@ -14,7 +14,7 @@
                 </ul>
             </li>
             <li><a href="">CONTACTANOS</a></li>
-            <li><a href="">ADOPTA</a></li>
+            <li><a href="adoptar.php">ADOPTA</a></li>
             <li><a href="">REPORTA</a></li>
             <li><img src="logotipos/user.png" alt="perfil" width="60">
                 <ul class="solo">
