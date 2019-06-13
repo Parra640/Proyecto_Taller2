@@ -12,12 +12,16 @@
     <div class="login">
         <img class="logo" src="logotipos/user.png" alt="logotipo petworld">
         <h1>Iniciar Sesion Petworld</h1>
-        <form action="post">
+        <form action="verificar_sesion.php" method="POST">
             <label for="usuario">Usuario</label>
             <input type="text" name="u" placeholder="Ingrese su nombre">
 
             <label for="password">Contraseña</label>
             <input type="password" name="p" placeholder="Ingrese su contraseña ">
+
+            <?php if(!empty($_GET["m"])){
+                echo("<p> sesion incorrecta </p>");
+            } ?>
 
             <input type="submit" value="iniciar sesion">
             

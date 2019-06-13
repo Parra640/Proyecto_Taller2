@@ -12,7 +12,9 @@
 <body id="registro_usuario">
 
     <div class="registrar">
-        <h1>crear cuenta en PetWolrd</h1>
+
+        <h1>crear cuenta en PetWorld</h1>
+
         <form action="registrar_usuario.php" method="post">
             <label for="nombres">Nombres</label>
             <input type="text" name="nb" placeholder="Ingrese sus nombres">
@@ -34,6 +36,10 @@
 
             <label for="number">Numero telefonico</label>
             <input type="numero" name="nu" placeholder="numero telefónico" size="9">
+
+            <?php if(!empty($_GET["m"])){
+                echo("<p> *contraseñas no coinciden </p>");
+            } ?>
 
             <input id="crear" type="submit" value="Crear cuenta">
         </form>

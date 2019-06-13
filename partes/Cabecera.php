@@ -1,3 +1,16 @@
+<?php 
+session_start();
+$id=$_SESSION["id"];
+$pdo = new PDO("mysql:host=localhost;dbname=petworld;charset=utf8","root","");
+$sql = "SELECT * FROM usuario WHERE id=$id";
+
+foreach($pdo->query($sql) as $fila){
+    $nombre = $fila["nombre"];
+    $apellido = $fila["apellido"];
+}
+
+?>
+
 <div class="padre">
     <div class="hijo A">
         <li><img width="250" src="logotipos/petworld.png" alt="logotipo principal"></li>
@@ -12,15 +25,29 @@
                     <li><a href="Informacion-actividades.php">ACTIVIDADES</a></li>
                 </ul>
             </li>
-            <li><a href="">CONTACTANOS</a></li>
+            
             <li><a href="adoptar.php">ADOPTA</a></li>
             <li><a href="Reporta.php">REPORTA</a></li>
-            <li><img src="logotipos/user.png" alt="perfil" width="60">
-                <ul class="solo">
-                    <li><a href="iniciar_sesion.php">INICIAR SESION</a></li>
-                    <li><a href="crear_cuenta.php">CREAR CUENTA</a></li>
-                </ul>
+
+            <li><img src="logotipos/user.png" alt="perfil" width="60"> 
+                <?php if(isset($_SESSION["id"])){ 
+                    echo ("$nombre $apellido");
+                    echo("
+                    <ul class='solo'>
+                        <li><a href='Cerrar_session.php'>CERRAR SESION</a></li>
+                    </ul> 
+                    ");
+                } else{
+                    echo("
+                    <ul class='solo'>
+                        <li><a href='iniciar_sesion.php'>INICIAR SESION</a></li>
+                        <li><a href='crear_cuenta.php'>CREAR CUENTA</a></li>
+                    </ul>
+                    ");
+                } ?>
+                
             </li>
+
         </ul>
     </div>
 </div>
