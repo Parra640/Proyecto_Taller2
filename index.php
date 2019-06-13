@@ -14,9 +14,6 @@
 </header>
 
 
-
-
-
 <footer>
     <?php include 'partes/Pie.php'?>
 </footer>    
