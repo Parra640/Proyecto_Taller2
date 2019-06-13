@@ -2,13 +2,7 @@
 session_start();
 if(isset($_SESSION["id"])){
 
-<<<<<<< HEAD
-
-foreach($pdo->query($sql) as $fila){
-    $nombre = $fila["nombre"];
-    $apellido = $fila["apellido"];
-=======
-    $id=$_SESSION["id"];
+    $id= $_SESSION["id"];
     $pdo = new PDO("mysql:host=localhost;dbname=petworld;charset=utf8","root","");
     $sql = "SELECT * FROM usuario WHERE id=$id";
     
@@ -18,7 +12,6 @@ foreach($pdo->query($sql) as $fila){
         $email = $fila["email"];
         $telefono = $fila["numeroTelefono"];
     }
->>>>>>> 88dba08ece8ac4c24ca42dc46547f93f4064fcb0
 }
     
 ?>
@@ -31,7 +24,7 @@ foreach($pdo->query($sql) as $fila){
         <ul class="nav">
             <li><a href="index.php">INICIO</a></li>
             <li><a href="">INFORMACION</a>
-                <ul>
+                <ul id="cab">
                     <li><a href="Informacion-somos.php">¿QUIENES SOMOS?</a></li>
                     <li><a href="Informacion-colaboradores.php">COLABORADORES</a></li>
                     <li><a href="Informacion-actividades.php">ACTIVIDADES</a></li>

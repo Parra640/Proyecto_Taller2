@@ -47,6 +47,10 @@
             align-items: center;
         }
         
+        .B #cab a {
+            margin-left: 10px;
+        }
+        
         .nav li ul {
             display: none;
             /**  desaparece los subnemus presentes en la clase nav **/
@@ -261,8 +265,8 @@
             color: darkgrey;
         }
         
-        .redes a img {
-            margin: 5px 5px;
+        .redes img {
+            margin: 5px 15px;
         }
         
         .redes div {

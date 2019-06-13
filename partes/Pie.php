@@ -2,7 +2,8 @@
     <div class="container">
         <div class="info">
             <h1>PetWorld</h1>
-            <p> Somos un grupo de peronas que velan por el bienestar de las amascotas desamparadas ,ayudamos a darle una mejor calidad de vida asi como le buscamos un nuevo hogar</p>
+            <p> Somos un grupo de peronas que velan por el bienestar de las mascotas desamparadas,
+                ayudamos a darle una mejor calidad de vida asi como ayudar a buscarle una nueva familia</p>
         </div>
 
         <div class="redes">
@@ -62,7 +63,6 @@
         <div class="terminos">
             <a href="">Politicas y Privacidad</a> |
             <a href="">Terminos y Condiciones</a> |
-            <a href="">Informacion</a> |
             <a href="">Preguntas frecuentes</a>
         </div>
     </div>
