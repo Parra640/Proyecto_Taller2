@@ -2,12 +2,8 @@
 session_start();
 if(isset($_SESSION["id"])){
 
-<<<<<<< HEAD
-    $id= $_SESSION["id"];
-=======
 
     $id=$_SESSION["id"];
->>>>>>> 5229f4561c2ac194a9aea59be51c7a2420892e05
     $pdo = new PDO("mysql:host=localhost;dbname=petworld;charset=utf8","root","");
     $sql = "SELECT * FROM usuario WHERE id=$id";
     
@@ -17,10 +13,6 @@ if(isset($_SESSION["id"])){
         $email = $fila["email"];
         $telefono = $fila["numeroTelefono"];
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> 5229f4561c2ac194a9aea59be51c7a2420892e05
 }
     
 ?>
