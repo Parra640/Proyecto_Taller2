@@ -15,18 +15,25 @@
     <?php 
     if(isset($_SESSION["id"])){ 
         #lo que se ve cuando esta iniciada la sesion 
-        
     
-     } else{
+     }else{
         #cuando no esta iniciada la sesion
         echo("
-            <h1>Para adoptar a una mascota, primero debes iniciar sesion <a href='iniciar_sesion.php'> aqui </a></h1>
-            <h1>¿No tienes una cuenta aún? presiona <a href='crear_cuenta.php'>aqui</a> y se parte de esta comunidad. </h1>
+            <h1>Para adoptar a una mascota, primero debes iniciar sesión <a href='iniciar_sesion.php'> aquí </a></h1>
+            <h1>¿No tienes una cuenta aún? Haz clic <a href='crear_cuenta.php'>aqui</a> y sé parte de esta comunidad. </h1>
         
         ");
     }
     ?>
-
+    <div id="adopcion">
+    <div id="perro">
+    <a href="adoptar_perros.php"><img src="imagenes/perro.jpg" alt="Imagen de perro" class="imga"></a>
+    </div>
+    <div id="gato">
+    <a href="adoptar_gatos.php"><img src="imagenes/gato.jpg" alt="Imagen de gato" class="imga"></a>
+    </div>
+</div>
+    
     <footer>
         <?php include("partes/Pie.php")?>
     </footer>

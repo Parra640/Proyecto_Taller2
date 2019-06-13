@@ -23,14 +23,14 @@
             <li>Si tu perro/a o gato/a ha sido esterilizada y luego deseas vacunarla deberás esperar que pasen
             10 días.</li>
         </ul>
-
+        <br>
         <h2>¿Porqué es importante la esterilización?</h2>
         <p>La esterilización de perros y gatos se ha convertido en la opción más viable para mejorar su calidad de vida,
          combatir la sobrepoblación y los graves problemas que ello conlleva, y como prevención contra el abandono y el
           maltrato.</p>
     </div>
 
-    <h2>Campañas mas proximas</h2>
+    <h2>Campañas mas próximas</h2>
 
     <div>
         <img src="imagenes/campañaesterilizacion.jpg" alt="">
