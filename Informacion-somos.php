@@ -14,20 +14,20 @@
 
     <div><img src="logotipos/gato.png" alt=""></div>
 
-    <h1>¿Quienes somos?</h1>
+    <h1>¿Quiénes somos?</h1>
 
     <p>Somos una asociación sin fines de lucro dedicada a la promoción de la adopción, el trabajo de concientización 
     sobre la realidad de los perros y gatos en estado de abandono y la ejecución de proyectos que contribuyan a la 
     construcción de un mundo mejor para todas las mascotas.</p>
-
-    <h1>Mision</h1>
+    <br>
+    <h1>Misión</h1>
 
     <p>Esta página busca conectar a las personas que quieran adoptar mascotas y darles un fácil y gratuito 
      medio de hacerlo, además de informar y promocionar campañas gratuitas de estirilización. Asimismo,
      de acuerdo a nuestra visión, el sitio web cuenta con una funcionalidad que permite reportar animales sin hogar.</p>
     
-    <h1>Vision</h1>
-
+    <h1>Visión</h1>
+    <br>
     <p>En varias ciudades se pueden observar varios animales callejeros que se encuentran sin hogar por diversos
      motivos, ya sea por abandono o porque nació sin uno. El problema persiste a pesar del accionar de los gobiernos y
      se expande. Así este sitio web busca solucionar este problema, reduciendo a largo la tasa de animales domésticos 
