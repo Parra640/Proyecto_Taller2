@@ -335,14 +335,25 @@
         }
         /** AQUI ACABA PIE DE PAGINA**/
         /**ADOPTAR MASCOTAS**/
-        
-        #contenedor {
-            flex-flow: row nowrap;
+        #adopcion{
             width: 100%;
-            padding: 0px 50px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
         }
-        
-        .parte {
+        #perro{
             width: 50%;
+            background-color: goldenrod;
+ 
+        }
+        #gato{
+            width: 50%;
+            background-color: gray;
+
+        }
+        .imga{
+            height: 300px;
+            width: 250px;
+            padding: 200px;
         }
         /**CIERRE DE ADOPTAR MASCOTAS**/
