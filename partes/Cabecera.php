@@ -2,7 +2,6 @@
 session_start();
 if(isset($_SESSION["id"])){
 
-
     $id=$_SESSION["id"];
     $pdo = new PDO("mysql:host=localhost;dbname=petworld;charset=utf8","root","");
     $sql = "SELECT * FROM usuario WHERE id=$id";
