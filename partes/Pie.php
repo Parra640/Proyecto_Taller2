@@ -2,9 +2,9 @@
     <div class="container">
         <div class="info">
             <h1>PetWorld</h1>
-            <p> Somos un grupo de peronas que velan por el bienestar de las mascotas desamparadas,
-                ayudamos a darle una mejor calidad de vida asi como ayudar a buscarle una nueva familia</p>
+            <p> Somos un grupo de peronas que velan por el bienestar de las mascotas desamparadas, ayudamos a darle una mejor calidad de vida asi como ayudar a buscarle una nueva familia</p>
         </div>
+
 
         <div class="redes">
             <h1>Redes sociales</h1>
@@ -40,17 +40,17 @@
             </div>
         </div>
 
-        <div >
+        <div>
             <h1>Socios</h1>
             <div class="patrocinadores">
-            <div>
-            <div> <img src="logotipos/mimascot.png" alt="mimascot "  width="140" height="80" ></div>
-            <div> <img src="logotipos/Whiskas.png" alt=" wisckas" width="100" height="80"   ></div>
-            </div>
-            <div>
-            <div> <img src="logotipos/dogchow.png" alt="dogchow"  width="100" height="80" >  </div>
-            <div> <img src="logotipos/usil.png" alt="usil"  width="100" height="80" >  </div>
-            </div>
+                <div>
+                    <div> <img src="logotipos/mimascot.png" alt="mimascot " width="140" height="80"></div>
+                    <div> <img src="logotipos/Whiskas.png" alt=" wisckas" width="100" height="80"></div>
+                </div>
+                <div>
+                    <div> <img src="logotipos/dogchow.png" alt="dogchow" width="100" height="80"> </div>
+                    <div> <img src="logotipos/usil.png" alt="usil" width="100" height="80"> </div>
+                </div>
             </div>
         </div>
     </div>
@@ -61,9 +61,71 @@
             &copy; Copyright 2019 HTML.am
         </div>
         <div class="terminos">
-            <a href="">Politicas y Privacidad</a> |
-            <a href="">Terminos y Condiciones</a> |
-            <a href="">Preguntas frecuentes</a>
+            <a href="#popup01" >Politicas y Privacidad</a> |
+            <a href="#popup02">Terminos y Condiciones</a> |
+            <a href="#popup03">Preguntas frecuentes</a> |
+            <a href="#popup04"> Ayuda</a>
         </div>
     </div>
+</div>
+
+
+<div class="ventana01" id="popup01">
+        <div id="contenido-modal">
+            <div class="cab">
+                    <h2> Politicas y Privacidad</h2>
+                    <a href="#" class="cerrer_modal">X</a>
+            </div>
+            <div id="politica">
+                <h3>Registro y gestión de la cuenta de usuario</h3>
+
+                <ul>
+                    <l1>Gestionar correctamente la creación de la cuenta de usuario en el Sitio Web.
+                    </l1>
+                    <l1>
+                        Proporcionar apoyo al usuario en los procesos de olvido y recuperación de contraseña.
+                    </l1>
+                    <l1>
+                        Habilitar un apartado de la cuenta de usuario que permita a los usuarios configurar sus datos personales y los tratamientos permitidos sobre sus datos.
+                    </l1>
+                    <l1>
+                        Habilitar los comentarios en el blog y las valoraciones de productos en el Sitio Web.
+                    </l1>
+                    <l1>
+                        Incluir una lista con el historial de pedidos realizados, pedidos en curso y lista de favoritos.
+                    </l1>
+                </ul>
+            </div>
+        </div>
+</div>
+
+<div class="ventana01" id="popup02">
+        <div id="contenido-modal">
+            <div class="cab">
+                    <h2> Politicas y Privacidad</h2>
+                    <a href="#" class="cerrer_modal">X</a>
+            </div>
+        </div>
+</div>
+
+
+
+<div class="ventana01" id="popup03">
+        <div id="contenido-modal">
+            <div class="cab">
+                    <h2> Politicas y Privacidad</h2>
+                    <a href="#" class="cerrer_modal">X</a>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+<div class="ventana01" id="popup04">
+        <div id="contenido-modal">
+            <div class="cab">
+                    <h2> Ayuda</h2>
+                    <a href="#" class="cerrer_modal">X</a>
+            </div>
+        </div>
 </div>

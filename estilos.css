@@ -4,6 +4,8 @@
     padding: 0;
     font-family: sans-serif;
 }
+
+
 /** inicio de cabecera**/
 
 .padre {
@@ -60,7 +62,11 @@
 .nav li:hover>ul {
     display: block;
 }
+
+
 /** AQUI ACABA LA CABECERA**/
+
+
 /** inicio de sesion**/
 
 #inicio_sesion {
@@ -149,7 +155,11 @@
 .login a:hover {
     color: grey;
 }
+
+
 /** AQUI ACABA EL INICIO DE SESION**/
+
+
 /** Registro de usuario**/
 
 #registro_usuario {
@@ -220,7 +230,11 @@
     color: white;
     background-color: darksalmon;
 }
+
+
 /** AQUI ACABA REGISTRO DE USUARIO**/
+
+
 /** pie de pagina**/
 
 .container-padre {
@@ -337,60 +351,76 @@
 .patrocinadores img {
     margin: 20px 10px;
 }
+
+
 /** AQUI ACABA PIE DE PAGINA**/
+
+
 /**ADOPTAR MASCOTAS**/
-#adopcion{
+
+#adopcion {
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-#perro{
+
+#perro {
     width: 50%;
     background-color: goldenrod;
-
 }
-#gato{
+
+#gato {
     width: 50%;
     background-color: gray;
 }
-.imga{
+
+.imga {
     height: 300px;
     width: 250px;
     padding: 200px;
 }
+
+
 /**CIERRE DE ADOPTAR MASCOTAS**/
 
+
 /** Ventana emergente adoptar **/
-.ventana_fondo{
-    background-color: rgba(0, 0,0, 0.3);
+
+.ventana_fondo {
+    background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
-    top:0;
-    bottom:0;
-    left:0;
+    top: 0;
+    bottom: 0;
+    left: 0;
     right: 0;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     visibility: hidden;
 }
-.ventana_fondo.activar{
+
+.ventana_fondo.activar {
     visibility: visible;
 }
-.popup{
+
+.popup {
     background-color: #f8f8f8;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0,0, 0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
     border-radius: 3px;
     font-family: Arial, Helvetica, sans-serif;
-    padding:20px;
+    padding: 20px;
     text-align: center;
-    width:500px;
+    width: 500px;
 }
-.popup .span{
-    padding:20px;
+
+.popup .span {
+    padding: 20px;
 }
-.popup .cerrar-ventana{
-font-size: 16px;
+
+.popup .cerrar-ventana {
+    font-size: 16px;
 }
+
 
 /** Acaba ventana emergente**/
