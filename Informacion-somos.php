@@ -12,21 +12,21 @@
         <?php include("partes/Cabecera.php") ?>
     </header>
 
-    <div><img src="logotipos/gato.png" alt=""></div>
+    <div id="somos_imagen"><img src="logotipos/gato.png" alt=""></div>
 
-    <h1>¿Quiénes somos?</h1>
+    <h1 class="somos_h1">¿Quiénes somos?</h1>
 
-    <p>Somos una asociación sin fines de lucro dedicada a la promoción de la adopción, el trabajo de concientización 
+    <p class="somos_p">Somos una asociación sin fines de lucro dedicada a la promoción de la adopción, el trabajo de concientización 
     sobre la realidad de los perros y gatos en estado de abandono y la ejecución de proyectos que contribuyan a la 
     construcción de un mundo mejor para todas las mascotas.</p>
     <br>
-    <h1>Misión</h1>
+    <h1 class="somos_h1">Misión</h1>
 
-    <p>Esta página busca conectar a las personas que quieran adoptar mascotas y darles un fácil y gratuito 
+    <p class="somos p">Esta página busca conectar a las personas que quieran adoptar mascotas y darles un fácil y gratuito 
      medio de hacerlo, además de informar y promocionar campañas gratuitas de estirilización. Asimismo,
      de acuerdo a nuestra visión, el sitio web cuenta con una funcionalidad que permite reportar animales sin hogar.</p>
     
-    <h1>Visión</h1>
+    <h1 class="somos_h1">Visión</h1>
     <br>
     <p>En varias ciudades se pueden observar varios animales callejeros que se encuentran sin hogar por diversos
      motivos, ya sea por abandono o porque nació sin uno. El problema persiste a pesar del accionar de los gobiernos y
@@ -34,7 +34,7 @@
      sin hogar a través de la adopción y concientizando sobre la tenencia responsable y buen cuidado de las mascotas, 
      buscando construir un mundo donde todas las mascotas sean felices.</p>
     
-    <div> <img src="logotipos/dog1.jpg" alt=""></div>
+    <div id="somos_imagen2"> <img src="logotipos/dog1.jpg" alt=""></div>
     
     <footer>
         <?php include("partes/Pie.php") ?>
