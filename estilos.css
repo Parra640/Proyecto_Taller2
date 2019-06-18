@@ -44,11 +44,8 @@
         }
         
         .B {
+            margin: 0 auto 0;
             align-items: center;
-        }
-        
-        .B #cab a {
-            margin-left: 10px;
         }
         
         .nav li ul {
@@ -244,9 +241,7 @@
         }
         
         .info p {
-            margin-top: 20px;
-            margin-left: 6px;
-            margin-right: 7px;
+            margin: 25px auto;
         }
         
         .redes {
@@ -324,6 +319,7 @@
         .pie a {
             text-decoration: none;
             color: white;
+            margin: 0 15px 0;
         }
         
         .pie a:hover {
@@ -338,24 +334,78 @@
             margin: 20px 10px;
         }
         /** AQUI ACABA PIE DE PAGINA**/
+        /* estilo de la ventana modal*/
+        
+        .ventana01 {
+            display: flex;
+            visibility: hidden;
+            margin-top: -300px;
+        }
+        
+        .ventana01:target {
+            visibility: visible;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            z-index: 999;
+            transition: all 1s;
+        }
+        
+        #contenido-modal {
+            position: relative;
+            margin: 5% auto;
+            padding: 30px 40px;
+            background-color: bisque;
+            border-radius: 3px;
+            width: 60%;
+        }
+        
+        .cab {
+            text-align: center;
+        }
+        
+        .cab a {
+            text-decoration: none;
+            border-radius: 100px;
+            padding: 8px 10px;
+            color: black;
+            background-color: brown;
+            position: absolute;
+            top: 3px;
+            right: 3px;
+        }
+        
+        .ventana01 a:hover {
+            background-color: crimson;
+            color: white;
+        }
+        
+        #politica li {
+            list-style-type: disc;
+        }
+        /** FIN DE LA VENTANA MODAL */
         /**ADOPTAR MASCOTAS**/
-        #adopcion{
+        
+        #adopcion {
             width: 100%;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
         }
-        #perro{
+        
+        #perro {
             width: 50%;
             background-color: goldenrod;
- 
         }
-        #gato{
+        
+        #gato {
             width: 50%;
             background-color: gray;
-
         }
-        .imga{
+        
+        .imga {
             height: 300px;
             width: 250px;
             padding: 200px;
