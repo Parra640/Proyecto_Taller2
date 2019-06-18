@@ -1,413 +1,426 @@
-        * {
-            /** definismos los atributos generales**/
-            margin: 0;
-            padding: 0;
-            font-family: sans-serif;
-        }
-        /** inicio de cabecera**/
-        
-        .padre {
-            background-color: cadetblue;
-            font-size: 27px;
-            display: flex;
-            align-items: center;
-        }
-        
-        .padre li {
-            list-style: none;
-        }
-        
-        .nav li a {
-            color: black;
-            text-decoration: none;
-            padding: 15px 15px;
-            display: block;
-            align-items: center;
-        }
-        
-        .nav>li {
-            float: left;
-            /** alineamos los elemnetos li**/
-        }
-        
-        .nav li:hover {
-            background-color: darkorange;
-            transition: all .3s;
-        }
-        
-        .nav li>a:hover {
-            color: white;
-        }
-        
-        .A {
-            margin: 0 20px 0;
-        }
-        
-        .B {
-            margin: 0 auto 0;
-            align-items: center;
-        }
-        
-        .nav li ul {
-            display: none;
-            /**  desaparece los subnemus presentes en la clase nav **/
-            position: absolute;
-        }
-        
-        .nav li:hover>ul {
-            display: block;
-        }
-        /** AQUI ACABA LA CABECERA**/
-        /** inicio de sesion**/
-        
-        #inicio_sesion {
-            background-image: url(logotipos/can.jpg);
-            background-repeat: no-repeat;
-            background-size: 100vw 100vh;
-            font-family: sans-serif;
-            background-attachment: fixed;
-        }
-        
-        .login {
-            width: 320px;
-            height: 500px;
-            color: black;
-            top: 50%;
-            left: 50%;
-            position: absolute;
-            transform: translate(-50%, -50%);
-            box-sizing: border-box;
-            padding: 70px 30px;
-        }
-        
-        .login .logo {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            position: absolute;
-            top: -50px;
-            left: calc(50% - 50px);
-        }
-        
-        .login h1 {
-            padding: 0 0 20px;
-            text-align: center;
-            color: white;
-            font-size: 25px;
-        }
-        
-        .login label {
-            color: white;
-            font-size: 20px;
-            font-weight: bold;
-            display: block;
-        }
-        
-        .login input {
-            width: 99%;
-            margin-bottom: 20px;
-        }
-        
-        .login input[type="text"],
-        .login input[type="password"] {
-            border: none;
-            border-bottom: 2px soliD white;
-            background: transparent;
-            outline: none;
-            /*  elinima los bordes */
-            font-size: 18px;
-            height: 50px;
-            color: white;
-        }
-        
-        .login input[type="submit"] {
-            border: none;
-            outline: none;
-            background-color: white;
-            height: 50px;
-            font-size: 18px;
-            border-radius: 20px;
-            color: black;
-        }
-        
-        .login input[type="submit"]:hover {
-            color: white;
-            background-color: darksalmon;
-        }
-        
-        .login a {
-            text-decoration: none;
-            font-size: 20px;
-            display: flex;
-            margin: 10px 10px;
-            color: white;
-        }
-        
-        .login a:hover {
-            color: grey;
-        }
-        /** AQUI ACABA EL INICIO DE SESION**/
-        /** Registro de usuario**/
-        
-        #registro_usuario {
-            background-image: url(logotipos/can.jpg);
-            background-repeat: no-repeat;
-            background-size: 100vw 100vh;
-            font-family: sans-serif;
-            background-attachment: fixed;
-        }
-        
-        .registrar {
-            width: 450px;
-            height: auto;
-            color: black;
-            top: 50%;
-            left: 50%;
-            position: absolute;
-            transform: translate(-50%, -45%);
-            box-sizing: border-box;
-        }
-        
-        .registrar h1 {
-            padding: 0 0 15px;
-            text-align: center;
-            color: black;
-            font-size: 40px;
-        }
-        
-        .registrar label {
-            color: black;
-            font-size: 16px;
-            font-weight: bold;
-            display: block;
-        }
-        
-        .nombres {
-            display: inline;
-        }
-        
-        .registrar input {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        
-        .registrar input[type="text"],
-        .registrar input[type="password"],
-        .registrar input[type="numero"],
-        .registrar input[type="date"] {
-            border: none;
-            border-bottom: 2px soliD white;
-            background: transparent;
-            outline: none;
-            font-size: 17px;
-            height: 30px;
-            color: white;
-        }
-        
-        .registrar input[type="submit"] {
-            border: none;
-            outline: none;
-            background-color: white;
-            height: 35px;
-            font-size: 18px;
-            border-radius: 15px;
-        }
-        
-        .registrar input[type="submit"]:hover {
-            color: white;
-            background-color: darksalmon;
-        }
-        /** AQUI ACABA REGISTRO DE USUARIO**/
-        /** pie de pagina**/
-        
-        .container-padre {
-            background-color: rgb(37, 37, 37);
-            color: white;
-        }
-        
-        .container-padre h1 {
-            font-size: 24px;
-            color: white;
-            text-align: center;
-            margin-top: 15px;
-        }
-        
-        .container {
-            display: flex;
-        }
-        
-        .info {
-            width: 400px;
-        }
-        
-        .info p {
-            margin: 25px auto;
-        }
-        
-        .redes {
-            width: 400px;
-        }
-        
-        .redes a {
-            text-decoration: none;
-            color: white;
-            display: flex;
-            align-items: center;
-            margin-left: 10px;
-        }
-        
-        .redes a:hover {
-            color: darkgrey;
-        }
-        
-        .redes img {
-            margin: 5px 15px;
-        }
-        
-        .redes div {
-            margin-top: 20px;
-        }
-        
-        .contacto {
-            width: 400px;
-        }
-        
-        .direccion {
-            margin-top: 25px;
-            display: flex;
-        }
-        
-        .direccion label {
-            margin-left: 20px;
-        }
-        
-        .numeros {
-            margin-top: 20px;
-            display: flex;
-        }
-        
-        .numeros label {
-            margin-left: 20px;
-            margin-top: 5px;
-            display: flex;
-        }
-        
-        .contacto .patrocinadores {
-            width: 400px;
-        }
-        
-        .correo {
-            display: flex;
-            margin-top: 20px;
-        }
-        
-        .correo label {
-            margin-left: 20px;
-            margin-top: 8px;
-        }
-        
-        .terminos {
-            margin-left: 20px;
-        }
-        
-        .pie {
-            display: flex;
-            padding: 20px;
-            justify-content: space-between;
-        }
-        
-        .pie a {
-            text-decoration: none;
-            color: white;
-            margin: 0 15px 0;
-        }
-        
-        .pie a:hover {
-            color: darkgrey;
-        }
-        
-        .patrocinadores {
-            display: flex;
-        }
-        
-        .patrocinadores img {
-            margin: 20px 10px;
-        }
-        /** AQUI ACABA PIE DE PAGINA**/
-        /* estilo de la ventana modal*/
-        
-        .ventana01 {
-            display: flex;
-            visibility: hidden;
-            margin-top: -300px;
-        }
-        
-        .ventana01:target {
-            visibility: visible;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            margin: 0;
-            z-index: 999;
-            transition: all 1s;
-        }
-        
-        #contenido-modal {
-            position: relative;
-            margin: 5% auto;
-            padding: 30px 40px;
-            background-color: bisque;
-            border-radius: 3px;
-            width: 60%;
-        }
-        
-        .cab {
-            text-align: center;
-        }
-        
-        .cab a {
-            text-decoration: none;
-            border-radius: 100px;
-            padding: 8px 10px;
-            color: black;
-            background-color: brown;
-            position: absolute;
-            top: 3px;
-            right: 3px;
-        }
-        
-        .ventana01 a:hover {
-            background-color: crimson;
-            color: white;
-        }
-        
-        #politica li {
-            list-style-type: disc;
-        }
-        /** FIN DE LA VENTANA MODAL */
-        /**ADOPTAR MASCOTAS**/
-        
-        #adopcion {
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-        }
-        
-        #perro {
-            width: 50%;
-            background-color: goldenrod;
-        }
-        
-        #gato {
-            width: 50%;
-            background-color: gray;
-        }
-        
-        .imga {
-            height: 300px;
-            width: 250px;
-            padding: 200px;
-        }
-        /**CIERRE DE ADOPTAR MASCOTAS**/
+* {
+    /** definismos los atributos generales**/
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+/** inicio de cabecera**/
+
+.padre {
+    background-color: cadetblue;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+}
+
+.padre li {
+    list-style: none;
+}
+
+.nav li a {
+    color: black;
+    text-decoration: none;
+    padding: 15px 15px;
+    display: block;
+    align-items: center;
+}
+
+.nav>li {
+    float: left;
+    /** alineamos los elemnetos li**/
+}
+
+.nav li:hover {
+    background-color: darkorange;
+    transition: all .3s;
+}
+
+.nav li>a:hover {
+    color: white;
+}
+
+.A {
+    margin: 0 20px 0;
+}
+
+.B {
+    align-items: center;
+}
+
+.B #cab a {
+    margin-left: 10px;
+}
+
+.nav li ul {
+    display: none;
+    /**  desaparece los subnemus presentes en la clase nav **/
+    position: absolute;
+}
+
+.nav li:hover>ul {
+    display: block;
+}
+
+
+/** AQUI ACABA LA CABECERA**/
+
+
+/** inicio de sesion**/
+
+#inicio_sesion {
+    background-image: url(logotipos/can.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    font-family: sans-serif;
+    background-attachment: fixed;
+}
+
+.login {
+    width: 320px;
+    height: 500px;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.login .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.login h1 {
+    padding: 0 0 20px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.login label {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+.login input {
+    width: 99%;
+    margin-bottom: 20px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    border: none;
+    border-bottom: 2px soliD white;
+    background: transparent;
+    outline: none;
+    /*  elinima los bordes */
+    font-size: 18px;
+    height: 50px;
+    color: white;
+}
+
+.login input[type="submit"] {
+    border: none;
+    outline: none;
+    background-color: white;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 20px;
+    color: black;
+}
+
+.login input[type="submit"]:hover {
+    color: white;
+    background-color: darksalmon;
+}
+
+.login a {
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    margin: 10px 10px;
+    color: white;
+}
+
+.login a:hover {
+    color: grey;
+}
+
+
+/** AQUI ACABA EL INICIO DE SESION**/
+
+
+/** Registro de usuario**/
+
+#registro_usuario {
+    background-image: url(logotipos/can.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    font-family: sans-serif;
+    background-attachment: fixed;
+}
+
+.registrar {
+    width: 450px;
+    height: auto;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -45%);
+    box-sizing: border-box;
+}
+
+.registrar h1 {
+    padding: 0 0 15px;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+.registrar label {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+}
+
+.nombres {
+    display: inline;
+}
+
+.registrar input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.registrar input[type="text"],
+.registrar input[type="password"],
+.registrar input[type="numero"],
+.registrar input[type="date"] {
+    border: none;
+    border-bottom: 2px soliD white;
+    background: transparent;
+    outline: none;
+    font-size: 17px;
+    height: 30px;
+    color: white;
+}
+
+.registrar input[type="submit"] {
+    border: none;
+    outline: none;
+    background-color: white;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.registrar input[type="submit"]:hover {
+    color: white;
+    background-color: darksalmon;
+}
+
+
+/** AQUI ACABA REGISTRO DE USUARIO**/
+
+
+/** pie de pagina**/
+
+.container-padre {
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+.container-padre h1 {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.container {
+    display: flex;
+}
+
+.info {
+    width: 400px;
+}
+
+.info p {
+    margin-top: 20px;
+    margin-left: 6px;
+    margin-right: 7px;
+}
+
+.redes {
+    width: 400px;
+}
+
+.redes a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.redes a:hover {
+    color: darkgrey;
+}
+
+.redes img {
+    margin: 5px 15px;
+}
+
+.redes div {
+    margin-top: 20px;
+}
+
+.contacto {
+    width: 400px;
+}
+
+.direccion {
+    margin-top: 25px;
+    display: flex;
+}
+
+.direccion label {
+    margin-left: 20px;
+}
+
+.numeros {
+    margin-top: 20px;
+    display: flex;
+}
+
+.numeros label {
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+}
+
+.contacto .patrocinadores {
+    width: 400px;
+}
+
+.correo {
+    display: flex;
+    margin-top: 20px;
+}
+
+.correo label {
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.terminos {
+    margin-left: 20px;
+}
+
+.pie {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.pie a {
+    text-decoration: none;
+    color: white;
+}
+
+.pie a:hover {
+    color: darkgrey;
+}
+
+.patrocinadores {
+    display: flex;
+}
+
+.patrocinadores img {
+    margin: 20px 10px;
+}
+
+
+/** AQUI ACABA PIE DE PAGINA**/
+
+
+/**ADOPTAR MASCOTAS**/
+
+#adopcion {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#perro {
+    width: 50%;
+    background-color: goldenrod;
+}
+
+#gato {
+    width: 50%;
+    background-color: gray;
+}
+
+.imga {
+    height: 300px;
+    width: 250px;
+    padding: 200px;
+}
+
+
+/**CIERRE DE ADOPTAR MASCOTAS**/
+
+
+/** Ventana emergente adoptar **/
+
+.ventana_fondo {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.ventana_fondo.activar {
+    visibility: visible;
+}
+
+.popup {
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+}
+
+.popup .span {
+    padding: 20px;
+}
+
+.popup .cerrar-ventana {
+    font-size: 16px;
+}
+
+
+/** Acaba ventana emergente**/
