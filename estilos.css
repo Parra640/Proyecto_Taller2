@@ -233,14 +233,6 @@
             display: flex;
         }
         
-        .info {
-            width: 400px;
-        }
-        
-        .info p {
-            margin: 25px auto;
-        }
-        
         .redes {
             width: 400px;
         }
@@ -289,10 +281,6 @@
             display: flex;
         }
         
-        .contacto .patrocinadores {
-            width: 400px;
-        }
-        
         .correo {
             display: flex;
             margin-top: 20px;
@@ -303,32 +291,25 @@
             margin-top: 8px;
         }
         
-        .terminos {
-            margin-left: 20px;
-        }
-        
         .pie {
             display: flex;
             padding: 20px;
             justify-content: space-between;
         }
         
-        .pie a {
+        .informacion {
+            width: 400px;
+            display: flex;
+        }
+        
+        .informacion a {
             text-decoration: none;
             color: white;
             margin: 0 15px 0;
         }
         
-        .pie a:hover {
+        .informacion a:hover {
             color: darkgrey;
-        }
-        
-        .patrocinadores {
-            display: flex;
-        }
-        
-        .patrocinadores img {
-            margin: 20px 10px;
         }
         /** AQUI ACABA PIE DE PAGINA**/
         /* estilo de la ventana modal*/

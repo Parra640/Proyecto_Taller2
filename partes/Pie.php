@@ -3,25 +3,25 @@
         <div class="redes">
             <h1>Redes sociales</h1>
             <div>
-                <a href="https://www.facebook.com"><img width="36" height="32" src="logotipos/Facebook.png" alt="logotipo facebook">Siguenos es facebook</a>
+                <a href="https://www.facebook.com"><img width="44" height="38" src="logotipos/Face.png" alt="logotipo facebook">Siguenos es facebook</a>
             </div>
             <div>
-                <a href="https://www.instagram.com"><img width="36" height="32" src="logotipos/instagram.png" alt="instagram">Siguenos en instagram</a>
+                <a href="https://www.instagram.com"><img width="40" height="32" src="logotipos/insta.png" alt="instagram">Siguenos en instagram</a>
             </div>
             <div>
-                <a href="https://www.twiter.com"><img width="36" height="32" src="logotipos/twitter.png" alt="instagram">Siguenos en twiter</a>
+                <a href="https://www.twiter.com"><img width="36" height="32" src="logotipos/twi.png" alt="instagram">Siguenos en twiter</a>
             </div>
         </div>
 
         <div class="contacto">
             <h1>Contactanos</h1>
             <div class="direccion">
-                <img src="logotipos/home.png" width="32" height="35">
+                <img src="logotipos/hom.png" width="32" height="35">
                 <label>Av. La fontana, La molina,Lima-perú
             </label>
             </div>
             <div class="numeros">
-                <img src="logotipos/phone.png" width="32" height="35">
+                <img src="logotipos/cellphone.png" width="36" height="35">
                 <div>
                     <label>949 777 118</label>
                     <label>548 235 899</label>
@@ -29,20 +29,21 @@
                 </div>
             </div>
             <div class="correo">
-                <img src="logotipos/correo.png" width="32" height="35" h>
+                <img src="logotipos/email-.png" width="36" height="38" h>
                 <label>PetWorld-peru@gmail.com</label>
             </div>
         </div>
 
         <div>
-            <h1> informacion</h1>
-            <div class="terminos">
-                <a href="#popup01" >Politicas y Privacidad</a> 
-                <a href="#popup02">Terminos y Condiciones</a> 
-                <a href="#popup03">Preguntas frecuentes</a> 
-                <a href="#popup04"> Ayuda</a>
-                <a href=""> colaboradores</a>
-                <a href="">Informacion</a>
+            <h1> Informacion</h1>
+            <div class="informacion">
+            
+                <label > <a href="#popup01" >Politicas y Privacidad</a> </label>
+                <label > <a href="#popup02">Terminos y Condiciones</a> </label>
+                <label > <a href="#popup03">Preguntas frecuentes</a> </label>
+                <label > <a href="#popup04"> Ayuda</a></label>
+                <label > <a href="#popup05"> colaboradores</a></label>
+                <label > <a href="#popop06">Informacion</a></label>
             </div>
          
         </div>
