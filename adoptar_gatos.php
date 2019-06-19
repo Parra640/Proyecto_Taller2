@@ -21,9 +21,11 @@ $gatobebe = "SELECT * FROM mascota_adoptar WHERE tipo='gato' AND edad BETWEEN 0 
 </header>
     <h2>Ellos están esperando la oportunidad de ser parte de una familia</h2>
     <p>Para conocer mas detalles acerca de las mascotas, presiona en las fotos</p>
+    <div class="seleccion">
     <a href="adoptar_gatos.php">todos los perros</a>
     <a href="adoptar_gatos.php?a=adulto">Adultos</a>
     <a href="adoptar_gatos.php?a=bebe">Cachorros</a>
+    </div>
 
     <?php if(isset($_GET["a"])){ ?>
         <?php if($_GET["a"]=="adulto"){ ?>

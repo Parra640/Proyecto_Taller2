@@ -11,7 +11,7 @@
     <header>
         <?php include("partes/Cabecera.php")?>
     </header>
-    <h1>Escoge a tu tipo de mascota preferida</h1>
+    <h1 class="adopta-titulo">Escoge a tu tipo de mascota preferida</h1>
 
     <div id="adopcion">
     <div id="perro">

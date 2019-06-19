@@ -2,13 +2,13 @@
             /** definismos los atributos generales**/
             margin: 0;
             padding: 0;
-            font-family: sans-serif;
+            font-family: monospace;
         }
         /** inicio de cabecera**/
         
         .padre {
-            background-color: cadetblue;
-            font-size: 27px;
+            background-color: #11281E;
+            font-size: 19px;
             display: flex;
             align-items: center;
         }
@@ -18,9 +18,9 @@
         }
         
         .nav li a {
-            color: black;
+            color: white;
             text-decoration: none;
-            padding: 15px 15px;
+            padding: 10px 15px;
             display: block;
             align-items: center;
         }
@@ -30,13 +30,10 @@
             /** alineamos los elemnetos li**/
         }
         
-        .nav li:hover {
-            background-color: darkorange;
-            transition: all .3s;
-        }
-        
         .nav li>a:hover {
-            color: white;
+            color: #007ebd;
+            border-block-end: 3px solid #007ebd;
+            transition: all .3s;
         }
         
         .A {
@@ -221,7 +218,7 @@
         /** pie de pagina**/
         
         .container-padre {
-            background-color: rgb(37, 37, 37);
+            background-color: rgba(22, 33, 51, .72);
             color: white;
         }
         
@@ -395,6 +392,12 @@
             flex-wrap: wrap;
         }
         
+        .adopta {
+            font-size: 20px;
+            padding: 10px 15px;
+            text-align: center;
+        }
+        
         #perro {
             width: 50%;
             background-color: goldenrod;
@@ -410,4 +413,84 @@
             width: 250px;
             padding: 200px;
         }
+        
+        .imga:hover {
+            border: 2px solid white;
+        }
         /**CIERRE DE ADOPTAR MASCOTAS**/
+        /**ventana emergente **/
+        
+        .ventana_fondo {
+            background-color: rgba(0, 0, 0, 0.3);
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            visibility: hidden;
+        }
+        
+        .ventana_fondo.activar {
+            visibility: visible;
+        }
+        
+        .popup {
+            background-color: #f8f8f8;
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+            border-radius: 3px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            text-align: center;
+            width: 500px;
+        }
+        
+        .popup .span {
+            padding: 20px;
+        }
+        
+        .popup .cerrar-ventana {
+            font-size: 16px;
+        }
+        /* Index */
+        
+        #index {
+            background-color: rgb(221, 185, 144);
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        
+        .imgs img {
+            width: 1000px;
+            height: 600px;
+            border: 1px solid grey;
+        }
+        
+        .texto {
+            font-size: 3em;
+        }
+        
+        #h1 {
+            color: skyblue;
+            font-size: 5cm;
+        }
+        /* Acaba index */
+        
+        .caja-grande {
+            display: flex;
+            background-color: rgb(221, 185, 144);
+        }
+        
+        .seleccion a {
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            margin: 30px 20px;
+        }
+        
+        .seleccion a:hover {
+            color: red;
+            background-color: gray;
+        }

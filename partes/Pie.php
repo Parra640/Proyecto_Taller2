@@ -1,18 +1,12 @@
 <div class="container-padre">
     <div class="container">
-        <div class="info">
-            <h1>PetWorld</h1>
-            <p> Somos un grupo de peronas que velan por el bienestar de las mascotas desamparadas, ayudamos a darle una mejor calidad de vida asi como ayudar a buscarle una nueva familia</p>
-        </div>
-
-
         <div class="redes">
             <h1>Redes sociales</h1>
             <div>
                 <a href="https://www.facebook.com"><img width="36" height="32" src="logotipos/Facebook.png" alt="logotipo facebook">Siguenos es facebook</a>
             </div>
             <div>
-                <a href="https://www.instagram.com"><img width="36" height="32" src="logotipos/instagram-v051916.png" alt="instagram">Siguenos en instagram</a>
+                <a href="https://www.instagram.com"><img width="36" height="32" src="logotipos/instagram.png" alt="instagram">Siguenos en instagram</a>
             </div>
             <div>
                 <a href="https://www.twiter.com"><img width="36" height="32" src="logotipos/twitter.png" alt="instagram">Siguenos en twiter</a>
@@ -41,17 +35,16 @@
         </div>
 
         <div>
-            <h1>Socios</h1>
-            <div class="patrocinadores">
-                <div>
-                    <div> <img src="logotipos/mimascot.png" alt="mimascot " width="140" height="80"></div>
-                    <div> <img src="logotipos/Whiskas.png" alt=" wisckas" width="100" height="80"></div>
-                </div>
-                <div>
-                    <div> <img src="logotipos/dogchow.png" alt="dogchow" width="100" height="80"> </div>
-                    <div> <img src="logotipos/usil.png" alt="usil" width="100" height="80"> </div>
-                </div>
+            <h1> informacion</h1>
+            <div class="terminos">
+                <a href="#popup01" >Politicas y Privacidad</a> 
+                <a href="#popup02">Terminos y Condiciones</a> 
+                <a href="#popup03">Preguntas frecuentes</a> 
+                <a href="#popup04"> Ayuda</a>
+                <a href=""> colaboradores</a>
+                <a href="">Informacion</a>
             </div>
+         
         </div>
     </div>
 
@@ -60,12 +53,7 @@
         <div class="copy">
             &copy; Copyright 2019 HTML.am
         </div>
-        <div class="terminos">
-            <a href="#popup01" >Politicas y Privacidad</a> |
-            <a href="#popup02">Terminos y Condiciones</a> |
-            <a href="#popup03">Preguntas frecuentes</a> |
-            <a href="#popup04"> Ayuda</a>
-        </div>
+       
     </div>
 </div>
 
@@ -119,6 +107,17 @@
             </div>
         </div>
 </div>
+
+<div class="ventana01" id="popup03">
+        <div id="contenido-modal">
+            <div class="cab">
+                    <h2> Politicas y Privacidad</h2>
+                    <a href="#" class="cerrer_modal">X</a>
+                </div>
+            </div>
+        </div>
+</div>
+
 
 
 <div class="ventana01" id="popup04">
