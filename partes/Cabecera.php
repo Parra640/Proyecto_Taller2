@@ -29,7 +29,7 @@ if(isset($_SESSION["id"])){
             <li><a href="Reporta.php">REPORTA</a></li>
             <li><img src="logotipos/user.png" alt="perfil" width="40"> 
                 <?php if(isset($_SESSION["id"])){ 
-                    echo ("$nombre $apellido");
+                    echo ("  <p>$nombre $apellido </p>" );
                     echo("
                     <ul class='solo'>
                         <li><a href='Cerrar_session.php'>CERRAR SESION</a></li>
@@ -43,6 +43,7 @@ if(isset($_SESSION["id"])){
                     </ul>
                     ");
                 } ?>
+               
                 
             </li>
 
