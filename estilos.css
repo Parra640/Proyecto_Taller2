@@ -376,41 +376,6 @@
         list-style-type: disc;
     }
     /** FIN DE LA VENTANA MODAL */
-    /**ADOPTAR MASCOTAS**/
-    
-    #adopcion {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    
-    .adopta {
-        font-size: 20px;
-        padding: 10px 15px;
-        text-align: center;
-    }
-    
-    #perro {
-        width: 50%;
-        background-color: goldenrod;
-    }
-    
-    #gato {
-        width: 50%;
-        background-color: gray;
-    }
-    
-    .imga {
-        height: 300px;
-        width: 250px;
-        padding: 200px;
-    }
-    
-    .imga:hover {
-        border: 2px solid white;
-    }
-    /**CIERRE DE ADOPTAR MASCOTAS**/
     /**ventana emergente **/
     
     .ventana_fondo {
@@ -622,3 +587,39 @@
     .actividades-proximas img {
         margin: 20px 30px 10px;
     }
+    /** FIN DE ACTIVIDADES**/
+    /**ADOPTAR MASCOTAS**/
+    
+    #adopcion {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .adopta {
+        font-size: 20px;
+        padding: 10px 15px;
+        text-align: center;
+    }
+    
+    #perro {
+        width: 50%;
+        background-color: goldenrod;
+    }
+    
+    #gato {
+        width: 50%;
+        background-color: gray;
+    }
+    
+    .imga {
+        height: 300px;
+        width: 250px;
+        padding: 200px;
+    }
+    
+    .imga:hover {
+        border: 2px solid white;
+    }
+    /**CIERRE DE ADOPTAR MASCOTAS**/
