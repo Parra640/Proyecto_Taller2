@@ -87,10 +87,21 @@
         </div>
 </div>
 
+
 <div class="ventana01" id="popup02">
         <div id="contenido-modal">
             <div class="cab">
-                    <h2> Politicas y Privacidad</h2>
+                    <h2> Terminos y Condiciones</h2>
+                    <a href="#" class="cerrer_modal">X</a>
+            </div>
+        </div>
+</div>
+
+
+<div class="ventana01" id="popup03">
+        <div id="contenido-modal">
+            <div class="cab">
+                    <h2> Preguntas frecuentes</h2>
                     <a href="#" class="cerrer_modal">X</a>
             </div>
         </div>
@@ -98,20 +109,21 @@
 
 
 
-<div class="ventana01" id="popup03">
+
+<div class="ventana01" id="popup04">
         <div id="contenido-modal">
             <div class="cab">
-                    <h2> Politicas y Privacidad</h2>
+                    <h2> Colaboradores</h2>
                     <a href="#" class="cerrer_modal">X</a>
                 </div>
             </div>
         </div>
 </div>
 
-<div class="ventana01" id="popup03">
+<div class="ventana01" id="popup05">
         <div id="contenido-modal">
             <div class="cab">
-                    <h2> Politicas y Privacidad</h2>
+                    <h2> Ayuda /h2>
                     <a href="#" class="cerrer_modal">X</a>
                 </div>
             </div>

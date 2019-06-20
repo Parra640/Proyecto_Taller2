@@ -11,15 +11,18 @@
     <header>
         <?php include("partes/Cabecera.php")?>
     </header>
-    <h1 class="adopta-titulo">Escoge a tu tipo de mascota preferida</h1>
+
+    <h1 class="adopta-titulo">Escoge y adopta de mascota preferida</h1>
 
     <div id="adopcion">
-    <div id="perro">
-    <a href="adoptar_perros.php"><img src="imagenes/perro.jpg" alt="Imagen de perro" class="imga"></a>
-    </div>
-    <div id="gato">
-    <a href="adoptar_gatos.php"><img src="imagenes/gato.jpg" alt="Imagen de gato" class="imga"></a>
-    </div>
+        <div id="perro">
+            <div>
+            <a href="adoptar_perros.php"><img src="imagenes/perro.jpg" alt="Imagen de perro" class="imga"></a>
+            </div>
+        </div>
+        <div id="gato">
+            <a href="adoptar_gatos.php"><img src="imagenes/gato.jpg" alt="Imagen de gato" class="imga"></a>
+        </div>
     </div>
     
     <footer>

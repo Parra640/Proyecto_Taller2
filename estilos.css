@@ -383,6 +383,14 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        margin: 40px 0 40px;
+    }
+    
+    .adopta-titulo {
+        font-size: 34px;
+        text-align: center;
+        margin: 20px 0 20px;
+        border-block-end: 2px solid #007ebd;
     }
     
     .adopta {
@@ -402,13 +410,19 @@
     }
     
     .imga {
+        border-radius: 20px;
         height: 300px;
-        width: 250px;
-        padding: 200px;
+        width: 300px;
+        margin: 200px 200px;
     }
     
-    .imga:hover {
-        border: 2px solid white;
+    #adopcion a {
+        text-align: center;
+    }
+    
+    #adopcion img:hover {
+        border: 8px solid #007ebd;
+        transition: 1.5s;
     }
     /**CIERRE DE ADOPTAR MASCOTAS**/
     /**ventana emergente **/
@@ -537,10 +551,6 @@
     }
     /**  ¿quienes somos? estilos **/
     
-    #principal-somos {
-        display: flexbox;
-    }
-    
     #somos-01 {
         background-image: url(logotipos/perro-quienes-somos.jpg);
     }
@@ -581,14 +591,13 @@
         margin: 30px 0 30px;
     }
     /** FIN DE ¿QUIENES SOMOS? **/
-    /** dando estilo a la venta de actividades**/
+    /**  actividades**/
     
     #actividades-informacion {
         display: flexbox;
     }
     
     .titulo-actividad {
-        background-color: ;
         padding: 9px;
         font-size: 34px;
         border-block-end: 3px solid #007ebd;
@@ -597,17 +606,12 @@
     }
     
     .info-esterilizacion {
-        background-color: antiquewhite;
         font-size: 20px;
     }
     
     .info-esterilizacion li {
         list-style-type: disc;
         margin: 30px 25px;
-    }
-    
-    .actividades-importancia {
-        background-color: floralwhite;
     }
     
     .actividades-importancia p {
@@ -623,3 +627,52 @@
         margin: 20px 30px 10px;
     }
     /** FIN DE ACTIVIDADES**/
+    /** reporta **/
+    
+    #fondo-reporta01 {
+        background-image: url(logotipos/correr.jpg);
+    }
+    
+    #fondo-reporta02 {
+        background-image: url(logotipos/correr.jpg);
+    }
+    
+    .reporta-fondo {
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+        height: 500px;
+        margin: 20px 0 30px;
+        color: white;
+        display: flex;
+    }
+    
+    .reporta-fondo a {
+        text-decoration: none;
+        padding: 4px;
+        color: black;
+        border-radius: 10px;
+    }
+    
+    .reporta-fondo a:hover {
+        color: white;
+        background-color: #007ebd;
+        transition: 1s;
+    }
+    
+    #animales-reportados-h1 {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 20px;
+        border-block-end: 2px solid #007ebd;
+    }
+    
+    .reporta-texto {
+        width: 40%;
+        margin: auto 50px;
+    }
+    
+    .reporta-texto h1 {
+        font-size: 20px;
+        margin: 30px 0 30px;
+    }
+    /** FIN DE REPORTA **/
