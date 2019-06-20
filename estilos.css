@@ -321,7 +321,7 @@
     .informacion a:hover {
         color: darkgrey;
         border-block-end: 2px solid black;
-        transition: 0.5s;
+        transition: 0.2s;
     }
     /** AQUI ACABA PIE DE PAGINA**/
     /* estilo de la ventana modal*/
@@ -447,6 +447,7 @@
     .popup .cerrar-ventana {
         font-size: 16px;
     }
+    /**FIN DE LA VENTANA EMERJENTE**/
     /*  dando estilo al Index */
     
     #index {
@@ -468,6 +469,7 @@
     }
     
     .presentamos-index a {
+        font-size: 20px;
         text-decoration: none;
         color: white;
         padding: 8px 10px;
@@ -479,7 +481,7 @@
     .presentamos-index a:hover {
         color: black;
         background-color: #007ebd;
-        transition: 2s;
+        transition: 1s;
     }
     
     .presentamos-index h1 {
@@ -533,3 +535,56 @@
         color: red;
         background-color: gray;
     }
+    /**  ¿quienes somos? estilos **/
+    
+    #principal-somos {
+        display: flexbox;
+    }
+    
+    #somos-01 {
+        background-image: url(logotipos/perro-quienes-somos.jpg);
+    }
+    
+    #somos-02 {
+        background-image: url(logotipos/gato-quienes-somos.jpg);
+    }
+    
+    #somos-03 {
+        background-image: url(logotipos/perro03-quienes-somos.jpg);
+    }
+    
+    .somos-sub {
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+        height: 500px;
+        margin: 20px 0 30px;
+        color: white;
+        display: flex;
+    }
+    
+    #somos-02 {
+        justify-content: flex-end;
+    }
+    
+    .somos-info {
+        width: 40%;
+        margin: auto 50px;
+    }
+    
+    #principal-somos .somos_h1 {
+        font-size: 40px;
+        margin: 20px 0 0;
+    }
+    
+    #principal-somos .somos_p {
+        font-size: 20px;
+        margin: 30px 0 30px;
+    }
+    /** FIN DE ¿QUIENES SOMOS? **/
+    /** dando estilo a la venta de actividades**/
+    
+    #actividades-informacion {
+        display: flexbox;
+    }
+    
+    .actividades-esterilizacion {}

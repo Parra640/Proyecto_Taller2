@@ -23,10 +23,7 @@
                 <h1> PETWORLD</h1>
                 <P>Adopta a tu nuevo compañero de aventuras <br> o reporta a alguna mascota desamparada</P>
                 <a href="#popop06">Informacion</a>
-
             </div>
-
-
         </div>
 
 
