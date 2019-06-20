@@ -587,4 +587,38 @@
         display: flexbox;
     }
     
-    .actividades-esterilizacion {}
+    .titulo-actividad {
+        background-color: ;
+        padding: 9px;
+        font-size: 34px;
+        border-block-end: 3px solid #007ebd;
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    .info-esterilizacion {
+        background-color: antiquewhite;
+        font-size: 20px;
+    }
+    
+    .info-esterilizacion li {
+        list-style-type: disc;
+        margin: 30px 25px;
+    }
+    
+    .actividades-importancia {
+        background-color: floralwhite;
+    }
+    
+    .actividades-importancia p {
+        font-size: 20px;
+        margin: 30px 25px;
+    }
+    
+    .actividades-proximas {
+        display: flex;
+    }
+    
+    .actividades-proximas img {
+        margin: 20px 30px 10px;
+    }
