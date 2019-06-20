@@ -27,7 +27,7 @@ if(isset($_SESSION["id"])){
             <li> <a href="Informacion-actividades.php"> ACTIVIDADES</a></li>
             <li><a href="adoptar.php">ADOPTA</a></li>
             <li><a href="Reporta.php">REPORTA</a></li>
-            <li><img src="logotipos/user.png" alt="perfil" width="40"> 
+            <li ><img src="logotipos/user.png" alt="perfil" width="40"> 
                 <?php if(isset($_SESSION["id"])){ 
                     echo ("  <p color='white'>$nombre $apellido </p>" );
                     echo("

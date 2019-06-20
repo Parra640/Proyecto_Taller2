@@ -1,5 +1,6 @@
 <div class="container-padre">
     <div class="container">
+
         <div class="redes">
             <h1>Redes sociales</h1>
             <div>
@@ -17,8 +18,7 @@
             <h1>Contactanos</h1>
             <div class="direccion">
                 <img src="logotipos/hom.png" width="32" height="35">
-                <label>Av. La fontana, La molina,Lima-perú
-            </label>
+                <label>Av. La fontana, La molina,Lima-perú</label>
             </div>
             <div class="numeros">
                 <img src="logotipos/cellphone.png" width="36" height="35">
@@ -41,9 +41,8 @@
                 <label > <a href="#popup01" >Politicas y Privacidad</a> </label>
                 <label > <a href="#popup02">Terminos y Condiciones</a> </label>
                 <label > <a href="#popup03">Preguntas frecuentes</a> </label>
-                <label > <a href="#popup04"> Ayuda</a></label>
-                <label > <a href="#popup05"> colaboradores</a></label>
-                <label > <a href="#popop06">Informacion</a></label>
+                <label > <a href="#popup04"> colaboradores</a></label>
+                <label > <a href="#popup05"> Ayuda</a></label>
             </div>
          
         </div>
@@ -121,11 +120,3 @@
 
 
 
-<div class="ventana01" id="popup04">
-        <div id="contenido-modal">
-            <div class="cab">
-                    <h2> Ayuda</h2>
-                    <a href="#" class="cerrer_modal">X</a>
-            </div>
-        </div>
-</div>
