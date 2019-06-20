@@ -11,27 +11,28 @@
     <header>
         <?php include("partes/Cabecera.php")?>
     </header>
-    
-    <?php 
-    if(isset($_SESSION["id"])){ 
-        #lo que se ve cuando esta iniciada la sesion 
-        echo("
-            <a href='reportar_formulario.php'>Reporta un animal perdido</a>
+    <div id="fondo_reporta">
+        <?php 
+        if(isset($_SESSION["id"])){ 
+            #lo que se ve cuando esta iniciada la sesion 
+            echo("
+                <a href='reportar_formulario.php'>Reporta un animal perdido</a>
 
-            <h2> Animales reportados</h2>
-        ");
-        include 'animales_reportados.php';
-     } else{
-        #cuando no esta iniciada la sesion
-        echo("
-            <h1>Para reportar una mascota perdida, primero debes iniciar sesión <a href='iniciar_sesion.php'> aquí </a></h1>
-            <h1>¿No tienes una cuenta aún? Haz clic <a href='crear_cuenta.php'>aquí</a> y sé parte de esta comunidad. </h1>
-            <h2> Animales reportados</h2>
+                <h2> Animales reportados</h2>
+            ");
+            include 'animales_reportados.php';
+         } else{
+            #cuando no esta iniciada la sesion
+            echo("
+                <h1>Para reportar una mascota perdida, primero debes iniciar sesión <a href='iniciar_sesion.php'> aquí </a></h1>
+                <h1>¿No tienes una cuenta aún? Haz clic <a href='crear_cuenta.php'>aquí</a> y sé parte de esta comunidad. </h1>
+                <h2> Animales reportados</h2>
 
-        ");
-        include 'animales_reportados.php';
-    }
-    ?>
+            ");
+            include 'animales_reportados.php';
+        }
+        ?>
+    </div>
 
     <footer>
         <?php include("partes/Pie.php")?>

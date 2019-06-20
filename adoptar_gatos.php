@@ -19,6 +19,7 @@ $gatobebe = "SELECT * FROM mascota_adoptar WHERE tipo='gato' AND edad BETWEEN 0 
 <header>
     <?php include 'partes/Cabecera.php'?>
 </header>
+<div class="fondo_adoptarpg">
     <h2>Ellos están esperando la oportunidad de ser parte de una familia</h2>
     <p>Para conocer mas detalles acerca de las mascotas, presiona en las fotos</p>
     <div class="seleccion">
@@ -26,42 +27,43 @@ $gatobebe = "SELECT * FROM mascota_adoptar WHERE tipo='gato' AND edad BETWEEN 0 
     <a href="adoptar_gatos.php?a=adulto">Adultos</a>
     <a href="adoptar_gatos.php?a=bebe">Cachorros</a>
     </div>
+    <div class="div_padre_reportados">
+        <?php if(isset($_GET["a"])){ ?>
+            <?php if($_GET["a"]=="adulto"){ ?>
+            <!-- adulto -->
+                <?php foreach($pdo->query($adulto) as $mascota){ ?>
+                    <div class="cajones_reportados">
+                        <div>
+                            <h2><?php echo($mascota["nombre"]) ?></h2>
+                            <a href="info_mascota.php?id=<?php echo($mascota["id"]) ?>" class="imagen_reportados"><img src="mascotas_adopcion/mascota_id_<?php echo($mascota["id"]) ?>.jpg"></a>
+                        </div>
+                    </div> 
+                <?php } ?>
 
-    <?php if(isset($_GET["a"])){ ?>
-        <?php if($_GET["a"]=="adulto"){ ?>
-        <!-- adulto -->
-            <?php foreach($pdo->query($adulto) as $mascota){ ?>
-                <div>
-                    <div>
-                        <h2><?php echo($mascota["nombre"]) ?></h2>
-                        <a href="info_mascota.php?id=<?php echo($mascota["id"]) ?>"><img src="mascotas_adopcion/mascota_id_<?php echo($mascota["id"]) ?>.jpg"></a>
-                    </div>
-                </div> 
+            <?php }else{ ?>
+            <!-- gato bebe -->
+                <?php foreach($pdo->query($gatobebe) as $mascota){ ?>
+                    <div class="cajones_reportados">
+                        <div>
+                            <h2><?php echo($mascota["nombre"]) ?></h2>
+                            <a href="info_mascota.php?id=<?php echo($mascota["id"]) ?>" class="imagen_reportados"><img src="mascotas_adopcion/mascota_id_<?php echo($mascota["id"]) ?>.jpg"></a>
+                        </div>
+                    </div> 
+                <?php } ?>
             <?php } ?>
-
-        <?php }else{ ?>
-        <!-- gato bebe -->
-            <?php foreach($pdo->query($gatobebe) as $mascota){ ?>
-                <div>
+        <?php } else{ ?>
+        <!-- todos  -->
+            <?php foreach($pdo->query($todos) as $mascota){ ?>
+                <div class="cajones_reportados">
                     <div>
                         <h2><?php echo($mascota["nombre"]) ?></h2>
-                        <a href="info_mascota.php?id=<?php echo($mascota["id"]) ?>"><img src="mascotas_adopcion/mascota_id_<?php echo($mascota["id"]) ?>.jpg"></a>
+                        <a href="info_mascota.php?id=<?php echo($mascota["id"]) ?>" class="imagen_reportados"><img src="mascotas_adopcion/mascota_id_<?php echo($mascota["id"]) ?>.jpg"></a>
                     </div>
                 </div> 
             <?php } ?>
         <?php } ?>
-    <?php } else{ ?>
-    <!-- todos  -->
-        <?php foreach($pdo->query($todos) as $mascota){ ?>
-            <div>
-                <div>
-                    <h2><?php echo($mascota["nombre"]) ?></h2>
-                    <a href="info_mascota.php?id=<?php echo($mascota["id"]) ?>"><img src="mascotas_adopcion/mascota_id_<?php echo($mascota["id"]) ?>.jpg"></a>
-                </div>
-            </div> 
-        <?php } ?>
-    <?php } ?>
-
+    </div>
+</div>
 <footer>
     <?php include 'partes/Pie.php'?>
 </footer>    
