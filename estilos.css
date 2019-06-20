@@ -459,11 +459,6 @@
         }
         /* Acaba index */
         
-        .caja-grande {
-            display: flex;
-            background-color: rgb(221, 185, 144);
-        }
-        
         .seleccion a {
             text-decoration: none;
             color: black;
@@ -474,4 +469,80 @@
         .seleccion a:hover {
             color: red;
             background-color: gray;
+        }
+
+        /* REPORTAR FORMULARIO */
+        #cuerpo_formulario{
+            padding: 200px 420px;
+            max-height: 500px;
+            background-image: url("imagenes/fondo_formulario_reportar.jpg");
+            background-position: center;
+        }
+        #cuerpo_formulario #asd{
+            width: 500px;
+            height: 350px;
+            padding: 10px;
+            background-color: rgba(248, 207, 144, 0.5);
+            border-radius: 15%;
+            box-shadow: 0px 0px 5px 0px black;
+        }
+        #cuerpo_formulario div{
+            padding: 15px 50px;
+        }
+        #cuerpo_formulario{
+            text-align: center;
+        }
+        /* Acaba reportar formulario*/
+
+        /* REPORTA PRINCIPAL*/
+        #fondo_reporta{
+            height: 500px;
+            background-image: url("imagenes/fondo_formulario_reportar.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        #fondo_reporta a{
+            text-decoration: none;
+            font-size: 25px;
+        }
+        /* animales reportados*/
+        .div_padre_reportados{
+            display:flex;
+            color:white;
+            justify-content: center;
+        }
+        .imagen_reportados img{
+            width: 250px;
+            height: 300px;
+            border-radius: 20px;
+        }
+        .cajones_reportados{
+            margin: 0px 20px;
+        }
+
+        /* adoptar perros y gatos*/
+        .fondo_adoptarpg{
+            height: 500px;
+            background-image: url("logotipos/correr.jpg");
+            background-size: 100vw 100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        /* Info mascota */
+        #info_mascota_img img{
+            width: 400px;
+            height: 400px;
+            border-radius: 20px;
+        }
+        #info_mascota_img{
+            margin: 0px 20px;
+        }
+        #info_mascota_h1{
+            padding: 0px 250px;
+            color: white;
+        }
+        #boton_adoptar{
+            margin: 10px 540px; 
+            padding: 10px 50px;
         }

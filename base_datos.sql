@@ -4,32 +4,33 @@ USE petworld;
 
 CREATE TABLE mascota(
     id int PRIMARY KEY AUTO_INCREMENT,
-    nombre VARCHAR(30),
-    tipo VARCHAR(10),
-    sexo VARCHAR(10),
-    raza VARCHAR(30),
-    direccion VARCHAR(100),
-    imagen LONGBLOB
+    id_usuario int NOT NULL,
+    nombre VARCHAR(30) NOT NULL,
+    tipo VARCHAR(10) NOT NULL,
+    sexo VARCHAR(10) NOT NULL,
+    raza VARCHAR(30) NOT NULL,
+    direccion VARCHAR(100) NOT NULL,
+    imagen LONGBLOB NOT NULL
 );
 
 CREATE TABLE mascota_adoptar(
     id int PRIMARY KEY AUTO_INCREMENT,
-    nombre VARCHAR(20),
-    edad int,
-    sexo VARCHAR(10),
-    tamaño VARCHAR(20),
-    descripcion VARCHAR(100),
-    tipo VARCHAR(10)
+    nombre VARCHAR(20) NOT NULL,
+    edad int NOT NULL,
+    sexo VARCHAR(10) NOT NULL,
+    tamaño VARCHAR(20) NOT NULL,
+    descripcion VARCHAR(100) NOT NULL,
+    tipo VARCHAR(10) NOT NULL
 );
 
 CREATE TABLE usuario(
     id int PRIMARY KEY AUTO_INCREMENT,
-    nombre VARCHAR(20),
-    apellido VARCHAR(20),
-    fechaNacimiento DATE,
-    email VARCHAR(40),
-    contraseña VARCHAR(20),
-    numeroTelefono CHAR(9)
+    nombre VARCHAR(20) NOT NULL,
+    apellido VARCHAR(20) NOT NULL,
+    fechaNacimiento DATE NOT NULL,
+    email VARCHAR(40) NOT NULL,
+    contraseña VARCHAR(20) NOT NULL,
+    numeroTelefono CHAR(9) NOT NULL
 );
 
 USE petworld;

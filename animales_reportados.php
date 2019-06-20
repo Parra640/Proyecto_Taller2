@@ -3,7 +3,7 @@ $conectar = new PDO("mysql:host=localhost;dbname=petworld;charset=utf8","root","
 
 ?>
 
-<div>
+<div class="div_padre_reportados">
 
     <?php foreach($conectar->query("SELECT * FROM mascota") as $mascota_perdida){ 
         $id=$mascota_perdida["id_usuario"];
@@ -13,8 +13,8 @@ $conectar = new PDO("mysql:host=localhost;dbname=petworld;charset=utf8","root","
         }
     ?>
     
-        <div>
-            <div>
+        <div class="cajones_reportados">
+            <div class="imagen_reportados">
                 <img src="data:image/jpg;base64, <?php echo base64_encode($mascota_perdida["imagen"]); ?> ">
             </div>
             <div>
